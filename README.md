@@ -1,0 +1,2 @@
+# templateRepo
+vzorova repozitory

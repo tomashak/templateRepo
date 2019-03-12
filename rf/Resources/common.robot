@@ -23,7 +23,7 @@ Open chrome in virtualmachine
     [Arguments]  ${START_URL}
 
    ${options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
-   # use proxy for Firefox         
+   # use proxy for Firefox (zmena pro cviceni G5)
    ${proxy}=              Evaluate      sys.modules['selenium.webdriver'].Proxy()  sys, selenium.webdriver
    ${proxy.http_proxy}=   Set Variable  proxy.csin.cz:8080
    ${proxy.https_proxy}=  Set Variable  proxy.csin.cz:8080

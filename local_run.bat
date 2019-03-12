@@ -7,3 +7,4 @@ set ldt=%ldt:~0,4%-%ldt:~4,2%-%ldt:~6,2% %ldt:~8,2%:%ldt:~10,2%:%ldt:~12,6%
 echo Local date is [%ldt%] >> aa.txt
 dir >> aa.txt
 rem date > b.txt
+rem Zmena pro cviceniG5
